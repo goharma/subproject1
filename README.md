@@ -11,6 +11,9 @@ git branch devops69
 ## Set branch as active
 git checkout devops69
 
+## Make the branch on the remote
+git push origin devops69
+
 ## Make modifications
 
 
@@ -32,3 +35,5 @@ git merge <desired branch>
 
 ## 
 git push --set-upstream origin devops69
+
+
