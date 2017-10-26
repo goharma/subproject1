@@ -5,7 +5,7 @@ Change made on devops69 branch from subproject, not inside superproject
 
 # Branching 
 
-## Create a branch
+## Create a LOCAL branch
 git branch devops69
 
 ## Set branch as active
@@ -26,3 +26,9 @@ git add .
 git commit
 git push
 ```
+
+## Get changes from one branch into the current branch
+git merge <desired branch>
+
+## 
+git push --set-upstream origin devops69
